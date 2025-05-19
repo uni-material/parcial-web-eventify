@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Conferencia Web 2025",
+      "date": "2025-06-01",
+      "location": "Lima, Perú"
+    },
+    {
+      "id": 2,
+      "name": "Cumbre de Desarrolladores",
+      "date": "2025-07-15",
+      "location": "Arequipa, Perú"
+    }
+  ],
+  "attendees": [
+    {
+      "id": 1,
+      "eventId": 1,
+      "name": "Ana Ruiz",
+      "checkedIn": true
+    },
+    {
+      "id": 2,
+      "eventId": 1,
+      "name": "Carlos Gómez",
+      "checkedIn": true
+    },
+    {
+      "id": 3,
+      "eventId": 2,
+      "name": "Luis Fernández",
+      "checkedIn": true
+    }
+  ]
+}
