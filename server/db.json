@@ -4,33 +4,51 @@
       "id": 1,
       "name": "Conferencia Web 2025",
       "date": "2025-06-01",
-      "location": "Lima, Perú"
+      "location": "Lima, Perú",
+      "description": "Evento enfocado en nuevas tecnologías web y frameworks modernos."
     },
     {
       "id": 2,
       "name": "Cumbre de Desarrolladores",
       "date": "2025-07-15",
-      "location": "Arequipa, Perú"
-    }
-  ],
-  "attendees": [
-    {
-      "id": 1,
-      "eventId": 1,
-      "name": "Ana Ruiz",
-      "checkedIn": true
-    },
-    {
-      "id": 2,
-      "eventId": 1,
-      "name": "Carlos Gómez",
-      "checkedIn": true
+      "location": "Arequipa, Perú",
+      "description": "Reunión de desarrolladores de software de toda América Latina."
     },
     {
       "id": 3,
-      "eventId": 2,
-      "name": "Luis Fernández",
-      "checkedIn": true
+      "name": "Expo Innovación 2025",
+      "date": "2025-08-20",
+      "location": "Cusco, Perú",
+      "description": "Presentación de startups tecnológicas y productos innovadores."
+    },
+    {
+      "id": 4,
+      "name": "IA y Machine Learning",
+      "date": "2025-09-10",
+      "location": "Trujillo, Perú",
+      "description": "Charlas y talleres sobre inteligencia artificial y aprendizaje automático."
+    },
+    {
+      "id": 5,
+      "name": "Seguridad Cibernética",
+      "date": "2025-10-05",
+      "location": "Piura, Perú",
+      "description": "Evento centrado en ciberseguridad, hacking ético y protección de datos."
     }
+  ],
+  "attendees": [
+    { "id": 1, "eventId": 1, "name": "Ana Ruiz", "checkedIn": true },
+    { "id": 2, "eventId": 1, "name": "Carlos Gómez", "checkedIn": false },
+    { "id": 3, "eventId": 2, "name": "Luis Fernández", "checkedIn": true },
+    { "id": 4, "eventId": 2, "name": "María Torres", "checkedIn": true },
+    { "id": 5, "eventId": 2, "name": "Javier Rojas", "checkedIn": false },
+    { "id": 6, "eventId": 3, "name": "Elena Paredes", "checkedIn": true },
+    { "id": 7, "eventId": 3, "name": "Pedro Vargas", "checkedIn": true },
+    { "id": 8, "eventId": 3, "name": "Lucía Chávez", "checkedIn": true },
+    { "id": 9, "eventId": 4, "name": "Diego Salas", "checkedIn": false },
+    { "id": 10, "eventId": 4, "name": "Marta Núñez", "checkedIn": false },
+    { "id": 11, "eventId": 5, "name": "José Pérez", "checkedIn": true },
+    { "id": 12, "eventId": 5, "name": "Renata Gutiérrez", "checkedIn": false },
+    { "id": 13, "eventId": 5, "name": "Andrés Vilca", "checkedIn": false }
   ]
 }

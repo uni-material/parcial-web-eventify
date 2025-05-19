@@ -4,6 +4,10 @@ export class AttendeeService{
 
     resourceEndpoint = import.meta.env.VITE_ATTENDEES_ENDPOINT_PATH;
 
+    getAll(){
+        return httpInstance.get(this.resourceEndpoint);
+    }
+
     getById(id) {
         return httpInstance.get(`${this.resourceEndpoint}/${id}`);
     }
